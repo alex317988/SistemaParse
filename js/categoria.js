@@ -1,5 +1,6 @@
 
-Parse.initialize("t8SK0ACNZwEyYi8ghD72W0NZzDNhR5sW2yfMPtYb","GkXLz6Y6lKfHwMQX66Y4Fz48cPa78P4h1ZnGOHs8");
+//UTILIZAR AQUI OS TOKENS DE SUA CONTA PESSOAL DO PARSE
+Parse.initialize();
 
 $(document).ready(function() {
 
