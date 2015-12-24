@@ -1,0 +1,304 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+ul li ul li {
+    list-style: none;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+/* alterações Alexandre */
+
+#cards {
+    margin-top: 40px;
+}
+
+.w3-card-2 * {
+    padding: 10px;
+}
+
+.w3-card-2 {
+    margin-top: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.w3-card-2 img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.w3-card-2 h3,p {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+
+
+.enviar_alt,.cancelar_alt, #enviar, #add_cat {
+    color: gray;
+    background-color: black;
+    padding:15px;
+    width:20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#add_cat {
+    width: 5%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.enviar_alt, .cancelar_alt {
+    display: inline-block;
+    float: left;
+    margin-top:30px;
+    margin-left: 80px;
+}
+
+.disp_button {
+    color: gray;
+    background-color: black;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    display: inline;
+    margin: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.disp_button:hover {
+    color: gray;
+    background-color: black;
+}
+
+.del_button {
+    background-color: #C93939;
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+    color: #f5f5f0;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.del_button:hover {
+    background-color: #FF0000;
+}
+
+.alt_button {
+    background-color: #CDCD35;
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+    color: #f5f5f0;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.alt_button:hover {
+    background-color: #E7E700;
+    color: white;
+}
+
+.card {
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.white {
+    color: gray;
+}
+
+.red {
+    color: red;
+}
+
+#errorUploading {
+    text-align: center;
+}
+
+.remove_alert {
+    float: right;
+    cursor: pointer;
+}
+
+.remove_categoria {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+}
+
+.table {
+    width: 40%;
+    margin-left: 50px;
+}
+
+td i {
+    margin-left: 15%;
+}
+
+#selec_cat {
+    margin-left: 290px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: inline;
+    /*margin-right: 25%;*/
+    /*margin-top: 20%;*/
+    /*vertical-align: 950%;*/
+    /*position: relative;
+    float: right;*/
+
+}
+
+#logo {
+    width:60%;
+    float: right;
+    margin-top: 50%;
+}
+
+#logo_nav {
+    width: 80%;
+}
+
+* {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 16px;
+}
+
+a p{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
