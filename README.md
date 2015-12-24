@@ -1,1 +1,5 @@
 #SistemaParse
+
+Olá, seja bem vindo ao meu projeto! Trata-se de um CRUD que utiliza o front end web e faz todas as transações via Javascript. Não houve uma grande preocupação com a arquitetura nesse projeto pois tratava-se de um sistema relativamente simples e eu estava aprendendo a utilizar essa API do site Parse.com.
+
+Como metas futuras pretendo refazer um sistema muito similar a esse mas tentando aplicar melhores praticas de arquitetura. O sistema, porém é completamente funcional e visualmente interessante. Para utilizá-lo é necessario que nos 3 js que contém a função Parse.initialize() sejam colocados seus tokens de acesso de algum projeto em sua conta, pois não seria vantajoso para mim fornecer a minha conta para outras pessoas testarem. Dito isso, é bem simples criar uma conta no parse.com e abrir um projeto para utilizar suas chaves e testar esse sistema. :)
